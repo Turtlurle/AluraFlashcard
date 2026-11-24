@@ -44,6 +44,10 @@ width: 100%;
   transform-style: preserve-3d; 
 } 
 
+.cartao:hover .cartao-interno {
+    transform: rotateY(180deg);
+} 
+
 h1 { 
   color: #fff; 
   font-size: 24px; 
